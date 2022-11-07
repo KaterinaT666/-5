@@ -4,26 +4,31 @@ public class Main {
         System.out.println(" Задание 1 ");
         int clientOS = 0;
         int clientAd = 1;
-        if ( 0 != 1 ){
-        System.out.println(" Установите версию приложения для iOS по ссылке ");
-        if (1 != 0) {
-            System.out.println("Установите версию приложения для Android по ссылке ");
+        int client = 0;
+        if ( client != clientAd )
+
+        if ( 0 != 1 ) {
+            System.out.println(" Установите версию приложения для iOS по ссылке ");
         }
-        // Задание 2
-            System.out.println(" Задание 2 " );
-        int clientDeviceYear =2015;
-                    int earOfReleaseClientOS = 2013;
-            int earOfReleaseClientAd = 2018;
-                    if ( earOfReleaseClientOS < clientDeviceYear ) {
-                        System.out.println(" Установите облегченную версию приложения для iOS по ссылке ");
-                    }else {
-                        System.out.println(" Установите версию приложения для iOS по ссылке ");
-                    }if ( earOfReleaseClientAd < clientDeviceYear ) {
-                            System.out.println(" Установите облегченную версию приложения для Android по ссылке ");
-                        }else {
+            if (1 != 0) {
                 System.out.println("Установите версию приложения для Android по ссылке ");
-                    }
-                    // Задание 3
+            }
+            // Задание 2
+            System.out.println(" Задание 2 ");
+            int clientDeviceYear = 2015;
+            int earOfReleaseClientOS = 2016;
+            int earOfReleaseClientAd = 2016;
+        if (earOfReleaseClientOS < clientDeviceYear && client == clientOS) {
+                System.out.println(" Установите облегченную версию приложения для iOS по ссылке ");
+            } else {
+            System.out.println(" Установите версию приложения для iOS по ссылке ");
+        }
+            if (earOfReleaseClientAd < clientDeviceYear ) {
+                System.out.println(" Установите облегченную версию приложения для Android по ссылке ");
+            }else{
+                System.out.println(" Установите версию приложения для Android  по ссылке ");
+            }
+            // Задание 3
                         System.out.println(" Задание 3 " );
                     int year = 2021;
                     if ( (  year % 400 == 0) ||(( year % 4 == 0) && ( year % 100 != 0 ))) {
@@ -112,4 +117,3 @@ public class Main {
             }
         }
     }
-}
